@@ -6,6 +6,15 @@
   padding-top: 150px;
 }
 
-.georgia {
+.lower-alpha {
   list-style-type: lower-alpha;
+}
+
+.li-style-none {
+  list-style: none;
+}
+
+.li-inline {
+  display: inline;
+  margin-right: 2px;
 }
