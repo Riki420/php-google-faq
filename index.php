@@ -107,8 +107,8 @@ $faqs = [
                                 <?php for ($i = 0; $i < count($faqs); $i++) { ?>
 
                                     <!--Stampo il risultato tramite la chiave--->
-                                    <h1 class="my-4"><? echo $faqs[$i]['title'] ?></h1>
-                                    <p><? echo $faqs[$i]['paragraph'] ?></p>
+                                    <h1 class="my-4"><?php echo $faqs[$i]['title'] ?></h1>
+                                    <p><?php echo $faqs[$i]['paragraph'] ?></p>
 
                                 <?php } ?>
                             </div>
